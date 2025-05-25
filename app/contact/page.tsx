@@ -198,11 +198,95 @@ export default function ContactPage() {
 
               {/* Contact Information */}
               <div>
-                <h2 className="text-3xl font-bold mb-6">Our Offices</h2>
-                <div className="space-y-8">
+                <h2 className="text-3xl font-bold mb-6">Contact Information</h2>
+                
+                {/* Direct Contacts */}
+                <div className="bg-card rounded-lg p-6 shadow-sm border mb-8">
+                  <h3 className="text-xl font-bold mb-6">You can reach out to the following contacts for assistance:</h3>
+                  
+                  {/* Operations */}
+                  <div className="mb-6">
+                    <h4 className="text-lg font-semibold text-primary mb-3">For Operations:</h4>
+                    <div className="space-y-3">
+                      <div className="flex flex-col space-y-1">
+                        <div className="flex items-center space-x-2">
+                          <span className="font-medium">Pranav:</span>
+                          <a href="mailto:cs@shegarlogistics.com" className="text-primary hover:underline">cs@shegarlogistics.com</a>
+                        </div>
+                        <div className="flex items-center space-x-2">
+                          <Phone className="h-4 w-4 text-primary" />
+                          <a href="tel:+917028606953" className="hover:underline">7028606953</a>
+                        </div>
+                      </div>
+                      <div className="flex flex-col space-y-1">
+                        <div className="flex items-center space-x-2">
+                          <span className="font-medium">Sanket:</span>
+                          <a href="mailto:sales@shegarlogistics.com" className="text-primary hover:underline">sales@shegarlogistics.com</a>
+                        </div>
+                        <div className="flex items-center space-x-2">
+                          <Phone className="h-4 w-4 text-primary" />
+                          <a href="tel:+918600293030" className="hover:underline">8600293030</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  {/* Inquiries */}
+                  <div className="mb-6">
+                    <h4 className="text-lg font-semibold text-primary mb-3">For Inquiries:</h4>
+                    <div className="space-y-3">
+                      <div className="flex flex-col space-y-1">
+                        <div className="flex items-center space-x-2">
+                          <span className="font-medium">Ashish:</span>
+                          <a href="mailto:ashish@shegarlogistics.com" className="text-primary hover:underline">ashish@shegarlogistics.com</a>
+                        </div>
+                        <div className="flex items-center space-x-2">
+                          <Phone className="h-4 w-4 text-primary" />
+                          <a href="tel:+919923484747" className="hover:underline">9923484747</a>
+                        </div>
+                      </div>
+                      <div className="flex flex-col space-y-1">
+                        <div className="flex items-center space-x-2">
+                          <span className="font-medium">Sunil:</span>
+                          <a href="mailto:sunil@shegarlogistics.com" className="text-primary hover:underline">sunil@shegarlogistics.com</a>
+                        </div>
+                        <div className="flex items-center space-x-2">
+                          <Phone className="h-4 w-4 text-primary" />
+                          <a href="tel:+919028281498" className="hover:underline">9028281498</a>
+                        </div>
+                      </div>
+                      <div className="flex flex-col space-y-1">
+                        <div className="flex items-center space-x-2">
+                          <span className="font-medium">Pranav:</span>
+                          <a href="mailto:cs@shegarlogistics.com" className="text-primary hover:underline">cs@shegarlogistics.com</a>
+                        </div>
+                        <div className="flex items-center space-x-2">
+                          <Phone className="h-4 w-4 text-primary" />
+                          <a href="tel:+917028606953" className="hover:underline">7028606953</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  {/* Accounts */}
+                  <div className="mb-6">
+                    <h4 className="text-lg font-semibold text-primary mb-3">For Accounts:</h4>
+                    <div className="space-y-3">
+                      <div className="flex flex-col space-y-1">
+                        <div className="flex items-center space-x-2">
+                          <span className="font-medium">Akshay:</span>
+                          <a href="mailto:accounts@shegarlogistics.com" className="text-primary hover:underline">accounts@shegarlogistics.com</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <h3 className="text-xl font-bold mb-4">Our Offices</h3>
+                <div className="space-y-6">
                   {offices.map((office, index) => (
                     <div key={index} className="bg-card rounded-lg p-6 shadow-sm border">
-                      <h3 className="text-xl font-bold mb-4">{office.city} Office</h3>
+                      <h4 className="text-lg font-bold mb-4">{office.city} Office</h4>
                       <ul className="space-y-3">
                         <li className="flex items-start space-x-3">
                           <MapPin className="h-5 w-5 text-primary mt-0.5 flex-shrink-0" />
