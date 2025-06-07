@@ -19,7 +19,7 @@ export default function ServicesPage() {
         "Door-to-door delivery options",
         "Customs clearance assistance",
       ],
-      image: "/images/Airtrial.png",
+      image: "/images/Airtrial.webp",
     },
     {
       id: "sea-freight",
@@ -34,7 +34,7 @@ export default function ServicesPage() {
         "Refrigerated containers for temperature-sensitive goods",
         "Port-to-port and door-to-door services",
       ],
-      image: "/images/SeaTrial.png",
+      image: "/images/SeaTrial.jpg",
     },
     {
       id: "road-transport",
@@ -49,7 +49,7 @@ export default function ServicesPage() {
         "Specialized vehicles for oversized cargo",
         "Express delivery services",
       ],
-      image: "/images/road-transport-new-removebg-preview.png",
+      image: "/images/road-transport-new-removebg-preview.jpg",
     },
     {
       id: "warehousing",
@@ -64,7 +64,7 @@ export default function ServicesPage() {
         "Cross-docking capabilities",
         "Value-added services (labeling, kitting, etc.)",
       ],
-      image: "/images/warehousing-new-removebg-preview.png",
+      image: "/images/warehousing-new-removebg-preview.jpg",
     },
     {
       id: "supply-chain",
@@ -79,7 +79,7 @@ export default function ServicesPage() {
         "Logistics network analysis",
         "Performance metrics and reporting",
       ],
-      image: "/images/supply-chain-new-removebg-preview.png",
+      image: "/images/supply-chain-new-removebg-preview.webp",
     },
     {
       id: "cargo-insurance",
